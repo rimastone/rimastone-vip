@@ -1,10 +1,11 @@
-/* --- Reseteo y Estilos Globales --- */
+/* Reseteo básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Fuente y colores */
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -15,30 +16,27 @@ body {
   min-height: 100vh;
 }
 
+/* Contenedor principal */
 .container {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 20px;
   text-align: center;
 }
 
-/* --- Cabecera --- */
-header {
-  margin-bottom: 20px;
-}
-
+/* Header */
 header h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
   color: #2a2a2a;
 }
 
-/* --- Sección de Precios --- */
-.pricing-section {
+/* Pricing Table */
+.pricing-table {
   width: 100%;
-  max-width: 1200px; /* Ajuste para pantallas grandes */
+  max-width: 700px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
@@ -46,7 +44,7 @@ header h1 {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Footer --- */
+/* Footer */
 footer {
   text-align: center;
   padding: 10px;
@@ -61,23 +59,4 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-/* --- Adaptación Responsive --- */
-/* Para pantallas grandes */
-@media (min-width: 768px) {
-  header h1 {
-    font-size: 2.5rem;
-  }
-
-  .pricing-section {
-    padding: 40px;
-  }
-}
-
-/* Para pantallas muy grandes (ordenadores de sobremesa) */
-@media (min-width: 1200px) {
-  .pricing-section {
-    max-width: 900px;
-  }
 }
