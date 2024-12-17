@@ -38,12 +38,12 @@ header h1 {
 /* --- Sección de Precios --- */
 .pricing-section {
   width: 100%;
-  max-width: 900px; /* Cambiar esto para pantallas más grandes */
+  max-width: 1000px; /* Cambiar esto para pantallas más grandes */
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #ededed;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 9px 50px rgba(0, 0, 0, 0.1);
 }
 
 /* --- Footer --- */
